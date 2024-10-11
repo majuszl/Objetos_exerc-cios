@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+
+<!-- 8. Modificando Objetos: Escreva uma função que recebe um objeto, uma chave e um valor. 
+A função deve definir a propriedade do objeto com a chave dada para ter o valor dado. -->
+<body>
+    
+    <script>
+        const objeto = {
+            propriedade: 1
+        }
+
+        function definindoPropriedade(objeto, chave, valor) {
+            objeto[chave] = valor
+        }
+        
+         definindoPropriedade(objeto, "propriedade2", 2) 
+
+        console.log(objeto)
+        // Pedi ajuda do Henrique para entender essa questão
+    </script>
+
+</body>
+</html>

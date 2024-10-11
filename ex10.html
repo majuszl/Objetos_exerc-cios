@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 10</title>
+</head>
+
+<!-- 10. Objetos e Arrays: Crie uma função que recebe um array de objetos.
+ Cada objeto tem propriedades para nome e idade. A função deve retornar o nome da pessoa mais velha no array. -->
+
+<body>
+    
+    <script>
+        function retornadoMaisVelho() {
+            const pessoas = [
+                {
+                    Nome: 'Maju',
+                    Idade: 16
+                },
+                {
+                    Nome: 'Osvaldo', 
+                    Idade: 56
+                },
+                {
+                    Nome: 'Célia',
+                    Idade: 89
+                }
+            ]
+            
+        }
+
+        var maior = 0
+
+        for (i in pessoas) {
+            if (pessoas[i].idade > maior) {
+                maior = pessoas[i].idade
+            }
+        }
+
+
+        console.log(maior)
+    </script>
+
+</body>
+</html>
